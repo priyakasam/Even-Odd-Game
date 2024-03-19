@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    /* background:linear-gradient(to left,rgb(0, 251, 255),black); */
+    background: linear-gradient(to right,white,black);
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+#main{
+    width: 1200px;
+    height: 100px;
+   
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    box-shadow:6px 5px 5px black; 
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.score{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#scores{
+    display: flex;
+    margin-top: 35px;
+}
+
+
+#res{
+    background:transparent;
+    color:black;
+    height: auto;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    box-shadow:2px 5px 5px whitesmoke ;
+    background:transparent;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 12%;
+}
+
+
